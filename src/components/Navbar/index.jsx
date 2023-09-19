@@ -6,7 +6,7 @@ import { Button } from ".."
 
 export default function index() {
     return (
-      <nav  className="flex flex-row items-center w-11/12 mx-auto mt-8">
+      <nav  className="flex flex-row items-center w-10/12 mx-auto mt-8">
         <div className="flex flex-row justify-start items-start mr-auto cursor-pointer">
           <img src={Logo}
           className="w-16"
