@@ -1,8 +1,10 @@
 export default function index(props) {
   return (
-    <div>
-        <p>{props.text}</p>
-        <img src={props.image} alt="arrow"/>
+    <div className={props.clickWrap}>
+        <div className={props.clickText}>{props.text}</div>
+        <img src={props.image} alt="arrow"
+          className={props.clickImage}
+        />
     </div>
   )
 }
