@@ -7,7 +7,7 @@ export default function index() {
       <section className="flex flex-row mt-[150px]">
         <div className="mr-auto ml-[9%]">
 
-          <div className="relative font-poppins font-medium text-[56px] leading-[70px] mb-12">
+          <div className="relative font-poppins font-medium text-[56px] leading-[70px] mb-12 text-gray-800">
             Easy Way to<br />
             Save your Money<br />
             with <span className="font-bold">Atom<span className="font-medium">Bank.</span></span>
