@@ -1,4 +1,4 @@
-import { Navbar, HeroSection, Banner, Easy, Future } from "./components"
+import { Navbar, HeroSection, Banner, Easy, Future, DebitCard, NewsLetter } from "./components"
 
 export default function App() {
 
@@ -8,10 +8,12 @@ export default function App() {
       <HeroSection />
       <Banner />
 
-      <section className="border-2 border-red-500 w-8/12 mx-auto mt-[120px]">
+      <section className="w-8/12 mx-auto mt-[120px]">
         <Easy />
         <Future />
+        <DebitCard />
       </section>
+      <NewsLetter />
     </div>
   )
 }
