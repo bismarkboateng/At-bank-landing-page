@@ -1,5 +1,10 @@
-export default function index() {
+export default function index(props) {
   return (
-    <div>index</div>
+    <button
+      className={props.className}
+      onClick={() => {}}
+    >
+      {props.children}
+    </button>
   )
 }
