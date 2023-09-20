@@ -3,9 +3,9 @@ import { Easy, appleBadge, googleBadge } from "../../assets"
 
 export default function index() {
   return (
-    <section className="flex flex-row gap-[140px] items-center">
+    <section className="flex flex-col md:flex-col md:mt-36 lg:flex-row lg:gap-[140px] items-center">
 
-      <img src={Easy} alt="phone" />
+      <img src={Easy} alt="phone" className="mb-20"/>
 
       <div>
         <div className="font-poppins text-4xl font-medium leading-[45px] mb-10 text-gray-800">
@@ -18,9 +18,9 @@ export default function index() {
          unnecessary financial matters
         </p>
 
-        <div className="flex flex-row gap-6">
-          <img src={googleBadge} alt="google" />
-          <img src={appleBadge} alt="apple" />
+        <div className="flex flex-col md:flex-row lg:flex-row gap-6">
+          <img src={googleBadge} alt="google" className="w-[200px] md:w-[200px]" />
+          <img src={appleBadge} alt="apple" className="w-[200px] md:w-[200px]" />
         </div>
 
       </div>

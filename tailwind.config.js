@@ -14,6 +14,17 @@ module.exports = {
         montserrat: ['Montserrat', 'sans'],
         poppins: ['Poppins', 'sans'],
       },
+
+      keyframes: {
+        slideRight: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        }
+      },
+
+      animation: {
+        slideRight: 'slideRight 0.5s ease',
+      },
     },
   },
   plugins: [],

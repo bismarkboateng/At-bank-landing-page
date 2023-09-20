@@ -9,7 +9,7 @@ export default function App() {
       <Navbar />
       <HeroSection />
       <Banner />
-      <section className="w-[58%] ml-[22.5%] mt-[120px]">
+      <section className="w-[80%] mx-auto md:w-[80%] lg:w-[58%] lg:ml-[22.5%] lg-[120px]">
         <Easy />
         <Future />
         <DebitCard />

@@ -4,13 +4,13 @@ import { FacebookLogo, InstagramLogo, Logo, Line } from "../../assets"
 
 export default function index() {
     return (
-      <footer className="bg-[#1D2027] h-[268px] w-[100%]">
+      <footer className="bg-[#1D2027] w-[100%] pl-20">
 
-        <div className="flex flex-row w-[58%] ml-[22.5%] pt-20">
+        <div className="flex flex-col md:flex-col lg:flex-row lg:w-[58%] lg:ml-[22.5%] lg:pt-20">
 
-          <div className="flex flex-row justify-start items-start cursor-pointer mr-auto">
+          <div className="flex flex-row justify-start items-start cursor-pointer mr-auto mb-5">
             <img src={Logo}
-            className="w-16"
+            className="w-16 pt-2"
             />
             <div className="font-montserrat text-xl mt-3 font-bold leading-[31.5px] text-white">
               Atom<span className="text-xl font-medium leading-[31.5px]">Bank</span>
@@ -19,7 +19,7 @@ export default function index() {
 
           <div className="font-poppins mr-auto">
             <div className="font-medium text-white text-lg leading-[21.6px] mb-3">Lokasi</div>
-            <p className="font-normal text-sm leading-[21px] text-gray-400">
+            <p className="font-normal text-sm leading-[21px] text-gray-400 mb-10">
               Lorem ipsum dolor sit amet,<br />
               consectetur adipiscing elit.
             </p>
@@ -27,7 +27,7 @@ export default function index() {
 
           <div className="font-poppins mr-auto">
             <div className="font-medium text-lg leading-[21.6px] text-white mb-3">Kontak</div>
-            <p className="font-normal text-sm leading-[21px] text-gray-400">
+            <p className="font-normal text-sm leading-[21px] text-gray-400 mb-10">
               Costumer Service 0812 - 1234 -5678
             </p>
           </div>

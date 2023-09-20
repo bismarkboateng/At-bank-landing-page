@@ -4,9 +4,9 @@ import { ClickToAction } from ".."
 
 export default function index() {
   return (
-   <section className="mt-28 flex flex-row gap-[93px] mb-20">
-    <img src={DebitCard} alt="debit cards" />
-    <div>
+   <section className="mt-28 flex flex-col md:flex-col lg:flex-row gap-[93px] mb-20">
+    <img src={DebitCard} alt="debit cards" className="md:w-[500px] md:ml-20" />
+    <div className="md:ml-20">
         <div className="font-poppins text-gray-800 font-medium text-4xl leading-[45px] mb-10">
             Costumable Debit Card
         </div>

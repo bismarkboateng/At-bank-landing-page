@@ -2,9 +2,9 @@ import { Security } from "../../assets"
 
 export default function index() {
   return (
-    <div className="flex flex-row gap-2 relative w-[600px] mt-[50px] ml-[150px]">
-        <img src={Security} alt="secure" className=""/>
-        <div className="absolute top-0 left-[230px] mt-[35px]">
+    <div className="flex flex-col md:flex-col gap-2 relative w-[600px] mt-[50px] ml-[150px]">
+        <img src={Security} alt="secure" className="w-[200px] lg:w-[300px]"/>
+        <div className="flex flex-col md:absolute md:top-0 md:left-[230px] md:mt-[35px] lg:gap-0">
             <div className="font-montserrat font-bold text-[21px] leading-[26.25px] text-gray-100 mb-4">
                 Fast and secure cashless<br />
                 payments

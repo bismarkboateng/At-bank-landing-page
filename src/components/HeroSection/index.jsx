@@ -4,10 +4,10 @@ import { Button, ClickToAction } from ".."
 
 export default function index() {
     return (
-      <section className="flex flex-row mt-[150px]">
-        <div className="mr-auto ml-[9%]">
+      <section className="flex flex-col md:flex-col lg:flex-row md:mt-[120px] lg:mt-[150px]">
+        <div className="mr-auto ml-[9%] mb-20 md:mb-32 lg:mb-32">
 
-          <div className="relative font-poppins font-medium text-[56px] leading-[70px] mb-12 text-gray-800">
+          <div className="mt-20 relative font-poppins font-medium text-[56px] leading-[70px] mb-12 text-gray-800">
             Easy Way to<br />
             Save your Money<br />
             with <span className="font-bold">Atom<span className="font-medium">Bank.</span></span>
@@ -37,10 +37,12 @@ export default function index() {
           </div>
         </div>
 
-        <div className="relative mr-5">
-          <img src={Laptop} alt="laptop" />
+        <div className="mb-20 relative mr-5">
+          <img src={Laptop} alt="laptop" className="ml-5 w-[80%] md:ml-5 lg:ml-0 md:w-5/6 lg:w-full" />
           <img src={Mobile} alt="mobile"
-            className="absolute top-[-15px] left-[180px]"
+            className="absolute top-[-15px] left-[100px] w-[150px]
+            md:absolute md:top-[-15px] md:left-[140px] md:w-[260px]
+            lg:absolute lg:top-[-15px] lg:left-[180px] lg:w-[300px]"
           />
         </div>
 
