@@ -3,7 +3,7 @@ import { Easy, appleBadge, googleBadge } from "../../assets"
 
 export default function index() {
   return (
-    <section className="flex flex-row gap-32 items-center">
+    <section className="flex flex-row gap-[140px] items-center">
 
       <img src={Easy} alt="phone" />
 

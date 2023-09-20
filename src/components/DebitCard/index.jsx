@@ -4,7 +4,7 @@ import { ClickToAction } from ".."
 
 export default function index() {
   return (
-   <section className="mt-28 flex flex-row gap-20 mb-20">
+   <section className="mt-28 flex flex-row gap-[93px] mb-20">
     <img src={DebitCard} alt="debit cards" />
     <div>
         <div className="font-poppins text-gray-800 font-medium text-4xl leading-[45px] mb-10">
